@@ -9,7 +9,7 @@ body {
     @apply w-11/12 bg-white m-auto p-6;
 }
 #container-gen header {
-    @apply w-full h-max relative;
+    @apply w-full h-max relative mb-5;
 }
 #container-gen header .headOne {
     @apply w-full h-12 relative flex flex-col mb-4 border-b-2 border-solid border-gray-300;
@@ -22,6 +22,9 @@ body {
 }
 #container-gen header .headOne .divM button {
     @apply pl-6;
+}
+#container-gen header .headOne label {
+    @apply font-bold text-2xl;
 }
 /* header .headOne .divM .part1 {
     @apply border-r-2 border-solid border-black-300 bg-slate-400;
@@ -36,5 +39,44 @@ body {
     @apply mr-6;
 }
 
-
-
+.su-content {
+    @apply w-full relative flex flex-row h-96;
+}
+.su-content .block_one {
+    @apply w-8/12 max-h-full relative bg-bg_blockOne bg-center
+    bg-cover h-full;
+}
+.su-content .block_one button {
+    @apply absolute bottom-10 left-2 border-b border-solid
+    border-black font-bold;
+}
+.su-content .block_one p {
+    @apply absolute bottom-16 left-2 w-3/6;
+}
+.su-content .block_one h1 {
+    @apply absolute font-bold text-4xl bottom-40 left-2;
+}
+.su-content .block_one label{
+    @apply absolute font-bold left-2 bottom-48;
+}
+.su-content .block_two {
+    @apply relative flex flex-col w-4/12;
+}
+.su-content .block_two .block_Part1 {
+    @apply h-2/4 w-auto bg-bg_blockTwo bg-contain bg-no-repeat bg-right p-4;
+}
+.su-content .block_two label {
+    @apply font-bold;
+}
+.su-content .block_two p {
+    @apply text-red-800 text-sm;
+}
+.su-content .block_two .block_Part2 {
+    @apply flex flex-row h-2/4;
+}
+.su-content .block_two .block_Part2 .class-1B {
+    @apply w-3/5 bg-bg_class-1B bg-contain bg-right bg-no-repeat;
+}
+.su-content .block_two .block_Part2 .class-2B {
+    @apply w-2/5 bg-bg_class-2B bg-contain bg-center bg-no-repeat;
+}

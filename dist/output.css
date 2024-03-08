@@ -561,6 +561,7 @@ body {
 
 #container-gen header {
   position: relative;
+  margin-bottom: 1.25rem;
   height: -moz-max-content;
   height: max-content;
   width: 100%;
@@ -594,6 +595,12 @@ body {
   padding-left: 1.5rem;
 }
 
+#container-gen header .headOne label {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
 /* header .headOne .divM .part1 {
     @apply border-r-2 border-solid border-black-300 bg-slate-400;
 } */
@@ -614,5 +621,104 @@ body {
   margin-right: 1.5rem;
 }
 
+.su-content {
+  position: relative;
+  display: flex;
+  height: 24rem;
+  width: 100%;
+  flex-direction: row;
+}
 
+.su-content .block_one {
+  position: relative;
+  height: 100%;
+  max-height: 100%;
+  width: 66.666667%;
+  background-image: url('/src/images/portrait-jeune-adulte-portant-maquette-capuche.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
+.su-content .block_one button {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0.5rem;
+  border-bottom-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  font-weight: 700;
+}
+
+.su-content .block_one p {
+  position: absolute;
+  bottom: 4rem;
+  left: 0.5rem;
+  width: 50%;
+}
+
+.su-content .block_one h1 {
+  position: absolute;
+  bottom: 10rem;
+  left: 0.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.su-content .block_one label {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 12rem;
+  font-weight: 700;
+}
+
+.su-content .block_two {
+  position: relative;
+  display: flex;
+  width: 33.333333%;
+  flex-direction: column;
+}
+
+.su-content .block_two .block_Part1 {
+  height: 50%;
+  width: auto;
+  background-image: url('/src/images/224f2a1b41563535c2ffcaab1acf428f_e4633e3e-0b7b-4bda-bb5a-cd614b8a04f5_1800x1800.jpg');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
+.su-content .block_two label {
+  font-weight: 700;
+}
+
+.su-content .block_two p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+
+.su-content .block_two .block_Part2 {
+  display: flex;
+  height: 50%;
+  flex-direction: row;
+}
+
+.su-content .block_two .block_Part2 .class-1B {
+  width: 60%;
+  background-image: url('/src/images/craghoppers-mens-anderson-waterproof-cagoule-p49528-266366_medium.jpg');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.su-content .block_two .block_Part2 .class-2B {
+  width: 40%;
+  background-image: url('/src/images/mastermind-homme-x-streetwear-messenger-bag-black-1.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
