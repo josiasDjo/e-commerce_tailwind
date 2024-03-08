@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-300 justify-center pt-16;
+}
+#container-gen {
+    @apply w-11/12 bg-white m-auto p-6;
+}
+#container-gen header {
+    @apply w-full h-max relative;
+}
+#container-gen header .headOne {
+    @apply w-full h-12 relative flex flex-col mb-4 border-b-2 border-solid border-gray-300;
+}
+#container-gen header .headOne .divM {
+    @apply absolute right-0 flex flex-row;
+}
+#container-gen header .headOne .divM a {
+    @apply pl-6;
+}
+#container-gen header .headOne .divM button {
+    @apply pl-6;
+}
+/* header .headOne .divM .part1 {
+    @apply border-r-2 border-solid border-black-300 bg-slate-400;
+} */
+#container-gen header .headTwo {
+    @apply relative w-full;
+}
+#container-gen header .headTwo ul {
+    @apply flex flex-row text-center justify-center;
+}
+#container-gen header .headTwo ul li {
+    @apply mr-6;
+}
+
+
+
